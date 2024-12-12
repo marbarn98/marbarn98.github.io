@@ -1,8 +1,9 @@
-var jsPsych = initJsPsych({
-  on_finish: function() {
-    jsPsych.data.displayData();
-  }
-});
+/* Remove comment notation below if want to run in browser */
+// var jsPsych = initJsPsych({
+//   on_finish: function() {
+//     jsPsych.data.displayData();
+//   }
+// });
 
 /* put html in separate file */
 
@@ -16,6 +17,8 @@ var master_links = [[5, 5], [5, 20], [5, 50], [5, 80], [5, 95], [20, 5], [20, 20
 var links = master_links.slice();
 var my_initial_link = 0;
 var my_terminal_link = 0;
+
+
 
 /*set up welcome block*/
 var welcome = {
@@ -126,5 +129,6 @@ timeline.push(instructions);
 timeline.push(test);
 timeline.push(debrief);
 
+/* Remove comment notation below if want to run in browser */
 /*start experiment*/
-jsPsych.run(timeline);
+//jsPsych.run(timeline);
