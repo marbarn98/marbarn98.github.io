@@ -13,17 +13,6 @@
 
 /* fonts and type */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto|Raleway|Roboto+Slab) body {
-    font-family: 'Open Sans', 'Arial', sans-serif;
-    font-size: 18px;
-    line-height: 1.6em;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 p {
     clear: both;
     -webkit-margin-before: 1vh;
@@ -311,24 +300,6 @@ canvas1, #canvas2, #backCanvas1, #backCanvas2 {
     padding: 0.6vh;
     box-shadow: inset 0 -0.1vh 0.1vh rgba(255, 255, 255, 0.3);
     margin-top: 2vh;
-}
-
-@keyframes expandWidth {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100;
-    }
-}
-
-@-webkit-keyframes mymove {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100;
-    }
 }
 
 .meter>span {
